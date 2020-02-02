@@ -43,7 +43,7 @@ def optimum_policy(grid,goal,cost):
                                 value[x][y] = v2
                                 policy[x][y] = delta_name[a]
 
-    return policy                                            git
+    return policy
 
 policy = optimum_policy(grid,goal,cost)
 for i in policy:
